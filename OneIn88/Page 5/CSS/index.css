@@ -1,0 +1,532 @@
+.block-one{
+    background-image: url(../img/Block1Photo/Donate_bck.png) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 987px;
+    background-position: center center;
+}
+
+
+.header{
+    position: relative;
+    top: 0;
+    left: calc(50% - 1660px / 2);
+    width: 1660px;
+}
+
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-logo-block{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 370px;
+    height: 152px;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+}
+
+.header-item{
+    list-style-type: none;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.header-item .header-link::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    width: 0%;
+    height: 8px;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.header-item .header-link:hover::before{
+    width:100%;
+}
+
+.header-search{
+    margin-right: 50px;
+    width: 35px;
+    height: 35px;
+}
+
+.fraze{
+    display: flex;
+    flex-direction: column;
+    padding-top: 118px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.big-fraze{
+    -webkit-text-stroke: thin;
+    font-size: 100px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.small-fraze{
+    width: 1200px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+    
+    
+    .first-info{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    input[type=text], select, textarea {
+        width: 130%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        resize: vertical;
+        border: solid #67078940 2px;
+        font-size: 20px;
+    }
+    
+    input[type=text], select, textarea :placeholder{
+        color: #67078959;
+        font-size: 20px;
+    }
+    
+    input[type=text]:focus{
+        box-shadow: 0px 4px 15px rgba(121, 8, 162, 0.328);
+     }
+    
+    label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+    }
+    
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px 70px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        border-radius: 30px;
+        font-size: 20px;
+        transition: 0.5s;
+    }
+    
+    input[type=submit]:hover {
+        background-color: black;
+        color:white
+    }
+    
+    .container {
+        border-radius: 5px;
+        background-color: white;
+        padding: 20px;
+        border-radius:50px;
+        width: 45%;
+        position: relative;
+        top: -150px;
+        margin-left: 150px;
+        box-shadow: 0 0 10px #a7a7a770, 0 0 25px #48464658, 0 0 50px #b2b2b269;
+    }
+    
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+    
+    .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        margin-bottom:10px;
+    }
+
+    .last-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .input-box{
+        border: solid #67078940 2px;
+        border-radius: 30px;
+        padding: 10px;
+        display: flex;
+    }
+
+    .input-box::before{
+        content: '';
+        width: 2px;
+        height: 20px;
+        background-color: #67078940;
+        position: relative;
+        left: 180px;
+        top: 9px;
+    }
+
+    .summ-input{
+        border: none;
+        font-size: 15px;
+        width: 174px;
+        border-radius: 30px;
+        padding: 10px;
+        margin-right: 10px;
+    }
+
+    .currency{
+        border: none;
+        font-size: 15px;
+        width: 80px;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    .buttons{
+        display: flex;
+        justify-content: space-around;
+        width: 343px;
+    }
+
+    .pay-pal{
+        background: url(../img/Block1Photo/paypal\ .png) no-repeat center;
+        background-size: 73px 25px;
+        background-color: #FFC439;
+        padding: 23px 58px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        float: right;
+        border-radius:30px;
+        font-size:20px;
+        transition:0.5s
+    }
+
+    .pay-pal:hover{
+        background-color: black;
+    }
+
+    .donate-form{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+    }
+
+    .donate-desc{
+        width: 540px;
+        font-size: 25px;
+    }
+
+
+    .eight-block{
+        display: flex;
+        justify-content: center;
+        width: 1531px;
+        margin: 0 auto;
+        padding-bottom: 150px;
+    }
+    .partners{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .img-partner{
+        width: 240px;
+        height: 176px;
+        border: #EDEDED 2px solid;
+    }
+    
+    .img-partner:hover{
+        border: none;
+        box-shadow: 0 0 10px #a7a7a770 ,0 0 50px #b2b2b269;
+        transition: 0.3s;
+    }
+    
+    .footer{
+        background: linear-gradient(0.25turn , #FFD601, #FD871A);;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer-menu{
+        display: grid;
+        grid-template-columns: 234px 274px;
+        grid-gap: 20px;
+        padding-left: 90px;
+    }
+    
+    .footer-infblock{
+        width: 327px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .foot-info{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .foot-info :not(:last-child){
+        margin-bottom: 15px;
+    }
+    
+    .phone::before{
+        content: '' ;
+        background-image: url(../img/footer/phone.png) ;
+        background-size: 16.19px 20px ;
+        background-repeat: no-repeat;
+        display: inline-block ;
+        background-position: right center;
+        position:relative;
+        right:0.5vw;
+        width: 16.19px;
+        height: 20px;
+    }
+    
+    .email::before{
+        content: '' ;
+        background-image: url(../img/footer/email.png) ;
+        background-size: 19px 15.4px ;
+        background-repeat: no-repeat;
+        display: inline-block ;
+        background-position: right center;
+        position:relative;
+        right:0.5vw;
+        width: 17.4px;
+        height: 15.4px;
+    }
+    
+    .adress::before{
+        content: '' ;
+        background-image: url(../img/footer/Location.png) ;
+        background-size: 15px 22px ;
+        background-repeat: no-repeat;
+        display: inline-block ;
+        background-position: right center;
+        position:relative;
+        right:0.5vw;
+        width: 15px;
+        height: 22px;
+    }
+    
+    .media-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .follow{
+        margin-top: 10px;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .soc-media{
+    display: flex;
+    margin-top: 5px;
+    }
+    
+    .icons{
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+        transition: 0.5s ;
+    }
+    
+    .icons:hover{
+        transform: translateY(-5px);
+    }
+    
+    .privacy{
+        background-color: #FF8A00;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .block-privacy{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1610px;
+        margin:  0 auto;
+    }
+    
+    .priv-paragraph{
+        color: black;
+        font-size: 15px;
+    }
+    
+    #link-policy{
+        margin-right: 10px;
+    }
+    
+    .policy{
+        display: flex;
+    }
+    
+    @media screen and (max-width: 1600px) {
+        .block-one{
+            width: 1665px;
+            margin: 0 auto;
+        }
+        .all-partners{
+            width: 1665px;
+            margin: 0 auto;
+        }
+    
+        .footer{
+            width: 1665px;
+            margin: 0 auto;
+        }
+    
+        .privacy{
+            width: 1665px;
+            margin: 0 auto;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        
+        .small-fraze {
+            width: 1300px;
+            font-size: 35px;
+            color: white;
+            text-align: center;
+        }
+
+        .donate-form{
+            width: 1314px;
+            margin: 0 auto;
+            display: block;
+        }
+        
+        .container{
+            width: 100%;
+            height: 645px;
+        }
+
+        input[type=text], select, textarea{
+            padding: 30px;
+            font-size: 40px;
+            border-radius: 64px;
+        }
+
+        .last-row{
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .input-box{
+            border-radius: 64px;
+            padding: 22px;
+            justify-content: space-between;
+        }
+
+        .input-box::before{
+            height: 56px;;
+            left: 355px;
+            top: 5px;
+        }
+
+        .summ-input{
+            font-size: 30px;
+            width: 100%;
+            border-radius: 30px;
+            padding: 17px;
+        }
+
+        .currency{
+            font-size: 30px;
+            width: 106px;
+            padding: 10px;
+            border-radius: 30px;
+            margin-left: 10px;
+        }
+
+        .buttons{
+            width: 379px;
+        }
+
+        input[type=submit]{
+            padding: 32px 125px;
+            border-radius: 64px;
+            font-size: 40px;
+        }
+
+        .pay-pal{
+            background-size: 140px 56px;
+            padding: 23px 110px;
+            border-radius: 64px;
+            margin-right: 40px;
+        }
+
+        .desc-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1665px;
+            margin-bottom: 150px;
+        }
+
+        .donate-desc{
+            width: 1400px;
+            font-size: 35px;
+            text-align: center;
+        }
+    
+    }
+
+    @media screen and (min-width: 800px) {
+        .block-one{
+            width: 1665px;
+            margin: 0 auto;
+        }
+
+        .donate-form{
+            width: 1600px;
+            margin: 0 auto;
+        }
+
+        .eight-block{
+            width: 1665px;
+            margin: 0 auto;
+        }
+    }
