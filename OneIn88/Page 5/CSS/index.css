@@ -436,6 +436,8 @@
             width: 1314px;
             margin: 0 auto;
             display: block;
+            margin-top: 300px;
+            margin-bottom: 300px;
         }
         
         .container{
@@ -503,13 +505,18 @@
             justify-content: center;
             align-items: center;
             width: 1665px;
-            margin-bottom: 150px;
+            margin-top: 100px;
         }
 
         .donate-desc{
             width: 1400px;
             font-size: 35px;
             text-align: center;
+        }
+        
+        .eight-block{
+        margin-bottom: 310px;
+        margin-top: 344px;
         }
     
     }
